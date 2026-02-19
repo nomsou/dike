@@ -39,7 +39,7 @@ nvm use 22.12.0
 npm install
 ```
 
-<!-- ### 4. Start OpenClaw gateway
+### 5. Start OpenClaw gateway
 
 In a separate terminal, run:
 
@@ -48,9 +48,9 @@ openclaw onboard --install-daemon
 openclaw gateway --port 18789
 ```
 
-Keep this running. Dike connects to it on startup. -->
+Keep this running. Dike connects to it on startup.
 
-### 5. Run Dike in development mode
+### 6. Run Dike in development mode
 
 ```bash
 npm run dev
