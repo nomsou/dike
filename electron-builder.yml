@@ -1,0 +1,28 @@
+appId: com.dike.app
+productName: Dike
+copyright: Copyright © 2026
+
+directories:
+  buildResources: resources
+  output: dist
+
+files:
+  - out/**/*
+
+win:
+  target: nsis
+  icon: resources/icon.ico
+
+mac:
+  target: dmg
+  icon: resources/icon.icns
+  category: public.app-category.productivity
+
+linux:
+  target: AppImage
+  icon: resources/icon.png
+  category: Office
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
